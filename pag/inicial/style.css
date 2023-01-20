@@ -1,7 +1,7 @@
-*{
-    margin: 0;
+body{
+    margin: 0px;
     padding: 0;
-}
+} 
  .div{
     display: flex;
     height: 85px;
@@ -12,22 +12,13 @@
 .marq{
  padding-top: 30px;
 }
-.dg1{
-    display:block;
-    float: right;
-    padding: 20px; 
-    margin-top: -20px;
-}
-.dg2{
-    display:block;
-    float: left;
-    left: 50px;
-    padding: 20px;
-    margin-top: -20px;
-  
-}
+
+
 .foot{
-    background-color: black;
+    position: relative;
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
 }
 .cabecalho{
     height: 175px;
@@ -59,4 +50,26 @@ a:hover{
 a{
     text-decoration: none;
     color: white;
+}
+/* imagens dos dois dog fundo azul */
+
+.img-baixo{
+    display: flex;
+    list-style: none;
+   justify-content: space-around;
+   padding: 250px;
+   margin-top: -20%;
+    
+}
+ul:hover{
+    cursor: pointer;
+}
+
+.dtimg{
+    display: flex;
+    padding: 200px;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: -199px;    
+
 }
