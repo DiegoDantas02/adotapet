@@ -73,15 +73,9 @@ ul:hover{
     margin-top: -199px;    
 
 }
-.gato{
-    list-style: none;
-    display: flex;
-    scroll-padding-inline: 100px;
-    
-    
-}
-.barraColorida {
-    display: relative;
-    height: 6px;
-    width: 1000000%;
-    background-image: linear-gradient(to right,#e8890e, #f4f4f4, #130355,#f6f6f6);}
+.homeslide{
+
+    background-size:cover; background-position: center center;
+        
+    }
+
